@@ -1,6 +1,5 @@
 #include <CL/cl.h>
 #include <omp.h>
-
 #include <algorithm>
 #include <chrono>
 #include <cmath>
