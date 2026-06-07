@@ -1,1 +1,1 @@
-Folder dokumentasi dan laporan.
+Folder laporan yang berisi laporan singkat yang lengkap dengan flowchart dan input output.
