@@ -1,7 +1,6 @@
 # Particle Simulation dengan OpenMP dan OpenCL (UAS Arsitektur dan Sistem Komputer)
 
 ## Anggota Tim
-* Nama Anggota Tim dan NIM:
   - Shelma Nasywa Ramadhani Munir (25032014056)
   - Khaira Humaira (25032015047)
   - Khashia Arifa Zahra (25032014019)
