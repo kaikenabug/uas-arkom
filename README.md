@@ -1,5 +1,11 @@
 # Particle Simulation dengan OpenMP dan OpenCL (UAS Arsitektur dan Sistem Komputer)
 
+## Anggota Tim
+* Nama Anggota Tim dan NIM:
+  - Shelma Nasywa Ramadhani Munir (25032014056)
+  - Khaira Humaira (25032015047)
+  - Khashia Arifa Zahra (25032014019)
+    
 Proyek ini menampilkan simulasi ribuan partikel yang bergerak di bidang 2D secara dinamis. Versi *sequential* digunakan sebagai *baseline*, versi *OpenMP* mempercepat komputasi di CPU, dan versi *OpenCL* menyediakan jalur eksekusi paralel untuk GPU/accelerator.
 
 ## 1. Deskripsi Proyek & Fitur Utama
@@ -47,10 +53,5 @@ Setelah simulasi selesai, catat metrik hasil pengujian yang ditampilkan oleh pro
 * Speedup OpenMP vs Sequential:1.82742x (lebih cepat)
 * Speedup OpenCL vs Sequential: 0.97705x (Mengalami penurunan performa)
 
-## Anggota Tim & Tautan Demo
-* Nama Anggota Tim dan NIM:
-  -Shelma Nasywa Ramadhani Munir (25032014056)
-  -Khaira Humaira (25032015047)
-  -Khashia Arifa Zahra (25032014019)
-* Link Repositori GitHub: (https://github.com/kaikenabug/uas-arkom)
-* Link Video Presentasi YouTube: (https://youtu.be/WK22jg78o_0)
+## Link Demo/Simulasi
+* Link Video Presentasi YouTube: https://youtu.be/WK22jg78o_0
