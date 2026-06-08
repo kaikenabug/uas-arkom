@@ -7,7 +7,7 @@
     
 Proyek ini menampilkan simulasi ribuan partikel yang bergerak di bidang 2D secara dinamis. Versi *sequential* digunakan sebagai *baseline*, versi *OpenMP* mempercepat komputasi di CPU, dan versi *OpenCL* menyediakan jalur eksekusi paralel untuk GPU/accelerator.
 
-## 1. Deskripsi Proyek & Fitur Utama
+## Deskripsi Proyek & Fitur Utama
 * Heterogeneous Computing: Menunjukkan konsep komputasi heterogen secara sederhana dan visual dengan membandingkan tiga mode eksekusi (Sequential, OpenMP, dan OpenCL).
 * Simulasi Dinamis: Setiap partikel menyimpan posisi `(x, y)` dan kecepatan `(vx, vy)`. Partikel bergerak menuju titik pusat gravitasi dan memantul ketika menyentuh batas layar.
 * Parameter Dapat Dikonfigurasi: Jumlah partikel, jumlah langkah simulasi (*steps*), dan jumlah thread OpenMP dapat diubah sesuai kebutuhan pengujian.
@@ -31,7 +31,7 @@ Format penulisan argumen saat mengeksekusi program di terminal adalah sebagai be
 .\particle_sim.exe [numParticles] [steps] [omp_threads]
 ```
 
-### 4. Langkah-Langkah Menjalankan Simulasi
+### Langkah-Langkah Menjalankan Simulasi
 ### Prasyarat & Persiapan Environment (Khusus Windows)
 Pastikan *compiler* C++ Anda (seperti MinGW-w64 atau MSVC di Visual Studio) mendukung dan mengaktifkan fitur OpenMP, pastikan juga OpenCL SDK atau *driver* GPU (NVIDIA/AMD/Intel) sudah terpasang, serta *path include* untuk file `CL/cl.h` sudah diarahkan dengan benar pada *compiler*.
 
